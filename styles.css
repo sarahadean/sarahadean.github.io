@@ -10,7 +10,9 @@ body {
   header p {
     max-width: 800px; /* The same width as the white rectangle containing "Technical Skills" */
     margin: auto; /* This is used to center the paragraph */
-    text-align: justify; /* This is to align the text */
+    text-align: center; /* This is to align the text */
+    font-size: larger;
+    margin-top: 20px;
   }
   
   header {
@@ -31,15 +33,24 @@ body {
   
   .profile-picture img {
     border-radius: 50%;
-    width: 150px;
+    width: 260px;
     border: 3px solid #fff;
     box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+  }
+
+  header p a {
+    color: #fff;
+    font-size: x-large;
   }
   
-  h1, h2 {
-    margin: 0;
+  h1 h2 {
+    margin: 0px;
   }
+
+  /* header h2 {
+    font-size: 30px;
+  } */
   
   .container {
     max-width: 800px;
@@ -82,7 +93,7 @@ body {
   }
   
   .project-thumbnail {
-    width: 100%;  /* adjust as needed */
+    width: 300px;  /* adjust as needed */
     height: auto; /* adjust as needed */
     object-fit: cover;
     transition: box-shadow .3s ease; /* Animation */
