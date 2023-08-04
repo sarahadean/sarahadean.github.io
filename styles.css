@@ -44,8 +44,10 @@ body {
     font-size: x-large;
   }
   
-  h1 h2 {
+  .title, .subtitle {
     margin: 0px;
+    margin-block-start: unset;
+    margin-block-end: unset;
   }
 
   /* header h2 {
